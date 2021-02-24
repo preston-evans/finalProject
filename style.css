@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightgrey;
+}
+#inputcontainer {
+    display: flex;
+    justify-content: center;
+}
+#input {
+    width: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    position: fixed;
+    bottom: 0;
+    width: 60%;
+}
+#comment {
+    height: 20px;
+    width: 600px;
+    margin: 0 10px 0 10px;
+}
+#displayName {
+    height: 20px;
+}
+.hiddenInput {
+    height: 20px;
+    width: 80%;
+}
+#button {
+    color: lightskyblue;
+    font-size: 25px;
+    cursor: pointer;
+}
+.submit {
+    color: lightskyblue;
+    font-size: 25px;
+    cursor: pointer;
+}
+#buttons {
+    color: lightskyblue;
+    font-size: 16px;
+}
+#master {
+    display: flex;
+    justify-content: center;
+    padding-top: 146.59px;
+    padding-bottom: 86.59px;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(172, 172, 172);
+    /* padding: 20px; */
+    width: 64%;
+    height: 60%;
+}
+#original {
+    background-color: white;
+    width: 60%;
+    padding: 2%;
+    position: fixed;
+    top: 0;
+}
+#originalContainer {
+    display: flex;
+    justify-content: center;
+}
+.commentContainer {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    margin: 20px;
+    padding: 20px;
+}
+img {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+.usrContainer {
+    width: 100%;
+    padding: 15px;
+}
+.usr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    color: lightskyblue;
+}
+.edit {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.delete {
+    cursor: pointer;
+}
+.displayName {
+    font-size: 15px;
+}
+.comment {
+    font-size: 30px;
+}
+.hidden {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.hiddenContainer {
+    display: none;
+}
